@@ -1,0 +1,135 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f9f9f9, #e0eafc);
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.2;
+  }
+  
+  .highlight {
+    color: #6c63ff;
+  }
+  
+  .typing {
+    font-size: 2rem;
+    color: #444;
+    margin-top: 1.5rem;
+  }
+  
+  .hero-description {
+    margin: 1.8rem 0;
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 1.7;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+  }
+  
+  .btn {
+    padding: 0.9rem 2rem;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(108, 99, 255, 0.3);
+  }
+  
+  .btn:hover {
+    background-color: #5548c8;
+    box-shadow: 0 8px 25px rgba(85, 72, 200, 0.4);
+  }
+  
+  .btn-outline {
+    background: transparent;
+    color: #6c63ff;
+    border: 2px solid #6c63ff;
+  }
+  
+  .btn-outline:hover {
+    background-color: #6c63ff;
+    color: #fff;
+  }
+  
+  .hero-image img {
+    width: 380px;
+    border-radius: 50%;
+    box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.15);
+    animation: float 5s ease-in-out infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  .hero-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .scroll-down {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    animation: bounce 2s infinite;
+    color: #6c63ff;
+    cursor: pointer;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translate(-50%, 0);
+    }
+    50% {
+      transform: translate(-50%, -10px);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 4rem 5%;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero-image img {
+      width: 300px;
+      margin-top: 3rem;
+    }
+  }
+  

@@ -1,0 +1,81 @@
+.about {
+    padding: 6rem 2rem;
+    background: linear-gradient(to bottom, #f9f9f9, #e0eafc);
+    color: #333;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #6c63ff;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about h2::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 4px;
+    background: #6c63ff;
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+  
+  .about-description {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .about-counters {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .counter {
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .counter:hover {
+    transform: translateY(-10px);
+  }
+  
+  .counter h3 {
+    font-size: 2.5rem;
+    color: #6c63ff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .counter p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .about-quote {
+    margin-top: 4rem;
+    font-style: italic;
+    color: #888;
+    font-size: 1.3rem;
+  }
+  
+  .signature {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #6c63ff;
+    font-size: 1.1rem;
+  }
+  
