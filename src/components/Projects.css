@@ -1,6 +1,3 @@
-/* Add this to src/index.css or App.css */
-
-/* Swiper navigation buttons */
 .swiper-button-prev,
 .swiper-button-next {
   color: #fff;
@@ -18,7 +15,6 @@
   transform: scale(1.15);
 }
 
-/* Swiper pagination bullets */
 .swiper-pagination-bullet {
   background: #fff;
   opacity: 0.6;
@@ -38,7 +34,6 @@
   transform: scale(1.2);
 }
 
-/* Fade-in animation for project section */
 .fade-in-up {
   opacity: 0;
   transform: translateY(30px);
@@ -52,12 +47,12 @@
   }
 }
 
-/* Optional: Smooth scrolling for whole site */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Bonus: Button hover effect */
+
 .button-glow {
   transition: all 0.3s ease-in-out;
 }
