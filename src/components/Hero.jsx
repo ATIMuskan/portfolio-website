@@ -73,12 +73,12 @@ function Hero() {
           <a href="https://github.com/ATIMuskan" target="_blank" rel="noopener noreferrer">
             <FaGithub size={28} />
           </a>
-          <a href="www.linkedin.com/in/muskan-shrivas-757091233" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/muskan-shrivas-757091233/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={28} />
           </a>
         </motion.div>
 
-        {/* Hero Buttons */}
+        
         <motion.div
           className="hero-buttons"
           initial={{ opacity: 0 }}
@@ -90,7 +90,7 @@ function Hero() {
         </motion.div>
       </div>
 
-      {/* Hero Image */}
+     
       <motion.div
         className="hero-image"
         initial={{ scale: 0 }}
@@ -100,7 +100,7 @@ function Hero() {
         <img src={heroImage} alt="Muskan - Developer" />
       </motion.div>
 
-      {/* Scroll Down Arrow */}
+ 
       <div className="scroll-down">
         <a href="#projects">
           ↓
