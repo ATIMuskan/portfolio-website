@@ -1,5 +1,3 @@
-// src/components/Projects.jsx
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -28,8 +26,8 @@ function Projects() {
       tech: "ReactJS, CSS, Animations",
       description: "I created a stunning personal portfolio using ReactJS with smooth animations and responsive design.",
       image: "/images/portfolio.png",
-      github: "https://github.com/Muskan-23/portfolio-website", // Replace with your actual GitHub repo
-      demo: "https://your-portfolio-live-link.com",
+      github: "https://github.com/ATIMuskan/portfolio-website/", // Replace with your actual GitHub repo
+      demo: "https://beamish-lollipop-2355c0.netlify.app/",
       featured: true,
     },
     {
@@ -37,8 +35,8 @@ function Projects() {
       tech: "Node.js, MongoDB, Express",
       description: "A full-stack blog platform where users can register, log in, write articles, and comment.",
       image: "/images/blog.png",
-      github: "https://github.com/Muskan-23/blog-platform", // Replace with your actual GitHub repo
-      demo: "https://your-blog-live-link.com",
+      github: "https://github.com/ATIMuskan", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan",
       featured: false,
     },
     {
@@ -46,8 +44,8 @@ function Projects() {
       tech: "ReactJS, Stripe, Firebase",
       description: "Developed a fully functional e-commerce site where users can browse products, add to cart, and checkout.",
       image: "/images/ecommerce.png",
-      github: "https://github.com/Muskan-23/ecommerce-site", // Replace with your actual GitHub repo
-      demo: "https://your-ecommerce-live-link.com",
+      github: "https://github.com/ATIMuskan/linkinsighter", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan/linkinsighter",
       featured: false,
     },
     {
@@ -55,8 +53,8 @@ function Projects() {
       tech: "React, OpenWeather API",
       description: "Built a weather app fetching live weather updates using OpenWeatherMap API.",
       image: "/images/weather.png",
-      github: "https://github.com/Muskan-23/weather-app", // Replace with your actual GitHub repo
-      demo: "https://your-weather-live-link.com",
+      github: "https://github.com/ATIMuskan/", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan/",
       featured: false,
     },
     {
@@ -64,8 +62,8 @@ function Projects() {
       tech: "MERN Stack",
       description: "A full-stack task manager app with user authentication, CRUD operations, and beautiful UI.",
       image: "/images/taskmanager.png",
-      github: "https://github.com/Muskan-23/task-manager", // Replace with your actual GitHub repo
-      demo: "https://your-taskmanager-live-link.com",
+      github: "https://github.com/ATIMuskan/", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan/",
       featured: true,
     },
     {
@@ -73,8 +71,8 @@ function Projects() {
       tech: "Socket.IO, Node.js",
       description: "Real-time chat application with WebSockets and authentication.",
       image: "/images/chat.png",
-      github: "https://github.com/Muskan-23/chat-app", // Replace with your actual GitHub repo
-      demo: "https://your-chat-live-link.com",
+      github: "https://github.com/ATIMuskan/", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan/",
       featured: false,
     },
     {
@@ -82,8 +80,8 @@ function Projects() {
       tech: "ReactJS, LocalStorage",
       description: "Track your expenses and income with a beautiful frontend and persistent storage.",
       image: "/images/expense.png",
-      github: "https://github.com/Muskan-23/expense-tracker", // Replace with your actual GitHub repo
-      demo: "https://your-expense-live-link.com",
+      github: "https://github.com/ATIMuskan/", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan/",
       featured: false,
     },
     {
@@ -96,21 +94,21 @@ function Projects() {
       featured: false,
     },
     {
-      title: "AI Image Generator",
-      tech: "React, DALL-E API",
+      title: "Backend CRUD Based",
+      tech: "Javascript, Express, MongoDB, Nodejs",
       description: "Create stunning AI-generated images using DALL-E API integration.",
       image: "/images/ai.png",
-      github: "https://github.com/Muskan-23/ai-generator", // Replace with your actual GitHub repo
-      demo: "https://your-ai-live-link.com",
+      github: "https://github.com/ATIMuskan/EmployeeAPI", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan/EmployeeAPI",
       featured: true,
     },
     {
-      title: "Landing Page",
+      title: "Web Portal",
       tech: "Next.js, TailwindCSS",
       description: "Built a clean and SEO-optimized landing page with Next.js and Tailwind.",
       image: "/images/landing.png",
-      github: "https://github.com/Muskan-23/landing-page", // Replace with your actual GitHub repo
-      demo: "https://your-landing-live-link.com",
+      github: "https://github.com/ATIMuskan/web-portal", // Replace with your actual GitHub repo
+      demo: "https://github.com/ATIMuskan/web-portal",
       featured: false,
     },
   ];
