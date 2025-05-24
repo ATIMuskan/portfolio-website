@@ -18,7 +18,7 @@ function App() {
       <section id="projects"><Projects /></section>
       <section id="skills"><Skills /></section>
       <section id="contact"><Contact /></section>
-         <section id="Footer"><Footer /></section>
+      <section id="Footer"><Footer /></section>
       <BackToTop />
     </div>
   );
